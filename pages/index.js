@@ -22,7 +22,8 @@ export default function Home() {
           <p>🧑🏻‍💻 Aprenda como criar e aumentar seu negócio com o Instagram.</p>
         </div>
         <div className="links">
-          <Button link='https://bit.ly/38uMWg6' linkLogo='/whatsapp.svg' text='WhatsApp'/>
+          <Button font='1.5rem' link='https://bit.ly/38uMWg6' linkLogo='/whatsapp.svg' text='WhatsApp'/>
+          <Button font='1.5rem' link='https://bit.ly/3cx5nlM' linkLogo='/promocao.svg' text='Venda na internet'/>
         </div>
         <div className={styles.Cc}>
           <p>Criado por <span> @seuinstamilionario </span></p>

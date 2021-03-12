@@ -11,8 +11,8 @@ function Button(props) {
           <div className={Styles.Logo}>
             <Image className='img'src={props.linkLogo} width='34' height='34' />
           </div>
-          <div className="text">
-            <p>{props.text}</p>
+          <div className={Styles.Text}>
+            <p style={{fontSize: props.font}}>{props.text}</p>
           </div>
         </a>
       </div>
