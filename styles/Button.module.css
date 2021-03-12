@@ -1,0 +1,26 @@
+.Button{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  background: #F6C60C;
+  height: 4rem;
+}
+.Button a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 4rem;
+  width: 70vw;
+}
+.Button p {
+  font-family: 'Bebas neue';
+  font-size: 1.5rem;
+  margin-right: calc((70vw / 2));
+  transform: translateX(50%);
+}
+.Logo{
+  
+  margin-left: 1.5rem;
+}
