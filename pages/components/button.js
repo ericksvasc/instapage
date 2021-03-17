@@ -8,11 +8,13 @@ function Button(props) {
     <>
       <div className={Styles.Button}>
         <a href={props.link} target='_blank'>
-          <div className={Styles.Logo}>
-            <Image className='img'src={props.linkLogo} width='34' height='34' />
-          </div>
-          <div className={Styles.Text}>
-            <p style={{fontSize: props.font}}>{props.text}</p>
+          <div className={Styles.Buttoncontent}>
+            <div className={Styles.Logo}>
+              <Image className='img'src={props.linkLogo} width='34' height='34' />
+            </div>
+            <div className={Styles.Text}>
+              <p style={{fontSize: props.font, marginRight: props.mg}}>{props.text}</p>
+            </div>
           </div>
         </a>
       </div>
