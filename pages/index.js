@@ -19,7 +19,7 @@ export default function Home() {
           <p>@seuinstamilionario</p>
         </div>
         <div className={styles.Bio}>
-          <p>🧑🏻‍💻 Aprenda como criar e aumentar seu negócio com o Instagram.</p>
+          <p>🧑🏻‍ Dicas de como criar seu negócio online usando o Instagram.</p>
         </div>
         <div className="links">
           <Button link='https://bit.ly/38uMWg6' linkLogo='/whatsapp.svg' text='WhatsApp'/>
