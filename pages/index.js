@@ -24,7 +24,7 @@ export default function Home() {
         <div className="links">
           <Button link='https://bit.ly/38uMWg6' linkLogo='/whatsapp.svg' text='WhatsApp'/>
           <Button mg='0rem' link='https://bit.ly/desomplicaUp' linkLogo='/promocao.svg' text='Venda na internet' />
-          <Button mg='0rem' link='https://treinamentoscresca.withgoogle.com/marketing-digital' linkLogo='/promocao.svg' text='Venda na internet' />
+          <Button mg='0rem' link='https://treinamentoscresca.withgoogle.com/marketing-digital' linkLogo='/promocao.svg' text='Curso do google' />
         </div>
         <div className={styles.Cc}>
           <p>Criado por <span> @seuinstamilionario </span></p>
